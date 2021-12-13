@@ -46,7 +46,7 @@ export default function ImageUploader() {
                 <h1 className="text-xl font-medium text-gray-600">Uploaded Successfully!</h1>
                 <img src={ENDPOINT + image.url} alt={image.name} className="object-cover bg-gray-50 duration-300 h-60 rounded-xl border-2 w-full" />
                 <div className="flex w-full bg-gray-100 text-sm rounded-xl border-2">
-                    <span className="w-full overflow-hidden  text-ellipsis p-2">
+                    <span className="w-full overflow-hidden  text-ellipsis p-2 whitespace-nowrap">
                     {ENDPOINT + image.url}
                     </span>
                     <Button className="float-right z-10 text-sm whitespace-pre" onClick={() => {
