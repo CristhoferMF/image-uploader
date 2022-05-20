@@ -9,7 +9,7 @@
 <div align="center">
   <h3>
     <a href="https://image-uploader.cristhofermf.dev">
-      Demo
+      Demo 
     </a>
     <span> | </span>
     <a href="https://github.com/CristhoferMF/image-uploader">
